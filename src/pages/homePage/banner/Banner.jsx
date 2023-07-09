@@ -39,12 +39,12 @@ const Banner = () => {
             Welcome to <span>Cinepedia.</span>
           </span>
           <span className="subTitle">
-            Unlimited movies to explore? Search now.
+            Unlimited movies & TV Shows to explore? Search now.
           </span>
           <div className="searchInput">
             <input
               type="text"
-              placeholder="Search movies"
+              placeholder="Search movie or tv show"
               onChange={(e) => setQuery(e.target.value)}
               onKeyUp={searchHandler}
             />
