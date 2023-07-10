@@ -1,24 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-// import { useSelector } from "react-redux";
 import "./banner.scss";
-// import useFetch from "../../../hooks/useFetch";
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
 import banner from "../../../assets/bg.jpg";
 
 const Banner = () => {
-  // const [background, setBackground] = useState("");
   const [query, setQuery] = useState("");
   const navigate = useNavigate();
-  // const { url } = useSelector((state) => state.home);
-  // const { data, loading } = useFetch("/movie/trending");
-
-  // useEffect(() => {
-  //   const bg =
-  //     url.backdrop +
-  //     data?.results?.[Math.floor(Math.random() * 20)]?.backdrop_path;
-  //   setBackground(bg);
-  // }, [data]);
 
   const searchHandler = (event) => {
     if (event.key === "Enter" && query.length > 0) {
