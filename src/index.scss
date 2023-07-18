@@ -64,3 +64,27 @@ body {
     }
   }
 }
+
+// scss of trending, top-rated, most-popular b/w name and switch-tabs in home page
+.cont{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 470px) {
+  .cont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    .home-st{
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      margin: 14px 0 6px;
+    }
+  }
+}

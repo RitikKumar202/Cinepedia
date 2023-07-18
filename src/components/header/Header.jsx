@@ -5,7 +5,6 @@ import { VscChromeClose } from "react-icons/vsc";
 import { useNavigate, useLocation } from "react-router-dom";
 import "./header.scss";
 import ContentWrapper from "../contentWrapper/ContentWrapper";
-import logo from "../../../src/assets/logo.png";
 import appName from "../../../src/assets/app-logo.png";
 
 const Header = () => {

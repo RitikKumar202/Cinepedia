@@ -17,8 +17,17 @@ const Trending = () => {
   return (
     <div className="carouselSection">
       <ContentWrapper>
-        <span className="carouselTitle">Trending🔥</span>
-        <SwitchTabs data={["Movies", "TV Shows"]} onTabChange={onTabChange} />
+        <div className="cont">
+          <div>
+            <span className="carouselTitle">Trending🔥</span>
+          </div>
+          <div className="home-st">
+            <SwitchTabs
+              data={["Movies", "TV Shows"]}
+              onTabChange={onTabChange}
+            />
+          </div>
+        </div>
       </ContentWrapper>
       <Carousel data={data?.results} loading={loading} />
     </div>
