@@ -1,8 +1,4 @@
-# Cinepedia 
 
-- User can explore unlimited movies and tv-shows
-- User can check the full details of movies and tv-shows
-- User can watch trailer of movies and tv-shows
 ## Run Locally
 
 Clone the Repository
@@ -29,7 +25,7 @@ npm run dev
 ```
 
 
-## Tech Stack
+## Tech Stack Used
 
 ***React, HTML, SCSS, Vite.js***
 
