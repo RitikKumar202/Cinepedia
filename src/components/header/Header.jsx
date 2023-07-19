@@ -49,6 +49,15 @@ const Header = () => {
     }
   };
 
+  const searchBtnHandler = () => {
+    if (query.length > 0) {
+      navigate(`/search/${query}`);
+      setTimeout(() => {
+        setShowSearch(false);
+      }, 1000);
+    }
+  };
+
   const openSearch = () => {
     setMobileMenu(false);
     setShowSearch(true);
@@ -105,7 +114,14 @@ const Header = () => {
                 onChange={(e) => setQuery(e.target.value)}
                 onKeyUp={searchQueryHandler}
               />
-              <VscChromeClose onClick={() => setShowSearch(false)} />
+              <HiOutlineSearch
+                className="searchBtn"
+                onClick={searchBtnHandler}
+              />
+              <VscChromeClose
+                className="searchBtn"
+                onClick={() => setShowSearch(false)}
+              />
             </div>
           </ContentWrapper>
         </div>

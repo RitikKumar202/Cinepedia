@@ -14,6 +14,12 @@ const Banner = () => {
     }
   };
 
+  const serchBtnHandler = () => {
+    if (query.length > 0) {
+      navigate(`/search/${query}`);
+    }
+  };
+
   return (
     <div className="banner">
       <div className="backdrop-img">
@@ -36,7 +42,7 @@ const Banner = () => {
               onChange={(e) => setQuery(e.target.value)}
               onKeyUp={searchHandler}
             />
-            <button>Search</button>
+            <button onClick={serchBtnHandler}>Search</button>
           </div>
         </div>
       </ContentWrapper>
