@@ -21,5 +21,13 @@
         @include md {
             font-size: 20px;
         }
+        .footer-links{
+            margin-top: 15px;
+        }
+        .footer-links a{
+            font-size: 30px;
+            padding: 0 8px;
+            color: #fff;
+        }
     }
 }
