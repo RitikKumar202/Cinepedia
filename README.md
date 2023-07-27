@@ -10,7 +10,7 @@ git clone https://github.com/RitikKumar202/Cinepedia.git
 environment variables
 
 ```bash
-VITE_APP_MOVIE_API = YOUR_TMDB_KEY
+VITE_APP_MOVIE_API = YOUR_TMDB_API_ACCESS_TOKEN
 ```
 
 Installation
