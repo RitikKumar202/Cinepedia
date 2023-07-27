@@ -25,7 +25,8 @@
             .profileImg {
                 width: 125px;
                 height: 125px;
-                border-radius: 12px;
+                border-radius: 50%;
+                transition: .3s ease-in-out;
                 overflow: hidden;
                 margin-bottom: 15px;
                 @include md {
@@ -40,6 +41,10 @@
                     background-repeat: no-repeat;
                     background-size: cover;
                 }
+            }
+            .profileImg:hover{
+                border-radius: 12px;
+                transition: .5s ease-in-out;
             }
             .name {
                 font-size: 14px;
