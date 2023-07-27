@@ -1,0 +1,31 @@
+
+## Run Locally
+
+Clone the Repository
+
+```bash
+git clone https://github.com/RitikKumar202/Cinepedia.git
+```
+
+environment variables
+
+```bash
+VITE_APP_MOVIE_API = YOUR_TMDB_KEY
+```
+
+Installation
+
+```bash
+npm install
+```
+
+Start the server
+```
+npm run dev  
+```
+
+
+## Tech Stack Used
+
+***React, HTML, SCSS, Vite.js***
+
