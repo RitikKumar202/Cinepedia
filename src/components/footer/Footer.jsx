@@ -3,7 +3,7 @@ import "./footer.scss";
 
 import ContentWrapper from "../contentWrapper/ContentWrapper";
 import { Link } from "react-router-dom";
-import { BsGithub } from "react-icons/bs";
+import { BsGithub, BsInstagram } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
@@ -21,6 +21,9 @@ const Footer = () => {
             </Link>
             <Link to="https://linkedin.com/in/RitikKumar202" target="blank">
               <FaLinkedin />
+            </Link>
+            <Link to="/" target="blank">
+              <BsInstagram />
             </Link>
           </div>
         </div>
